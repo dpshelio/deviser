@@ -171,7 +171,7 @@ def set_global_fullname(fullname):
 
 def set_unknown_error(pkg):
     global unknown_error
-    from util import strFunctions
+    from ..util import strFunctions
     unknown_error = '{0}Unknown'.format(strFunctions.upper_first(pkg))
 
 
@@ -316,7 +316,7 @@ def set_globals(lang, base, doc, prfix, lib, is_pack, pkg_prefix,
         if pkg_prefix != '':
             unknown_error = '{0}Unknown'.format(pkg_prefix)
         else:
-            from util import strFunctions
+            from ..util import strFunctions
             unknown_error = '{0}Unknown'.format(strFunctions.upper_first(lang))
     else:
         unknown_error = '{0}Unknown'.format(prfix)
@@ -355,5 +355,5 @@ def reset():
 
 
 def populate_error_list(lib_object):
-    from code_files import ValidationFiles
+    from ..code_files import ValidationFiles
     ValidationFiles.ValidationFiles(lib_object)

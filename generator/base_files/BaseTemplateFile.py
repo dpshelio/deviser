@@ -40,7 +40,7 @@
 import os
 import re
 
-from util import global_variables, strFunctions
+from ..util import global_variables, strFunctions
 
 
 class BaseTemplateFile:

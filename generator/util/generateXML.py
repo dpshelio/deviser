@@ -39,9 +39,9 @@
 
 import sys
 
-from parseXML import ParseXML
-from util import global_variables as gv
-from validation import ValidationXMLFiles
+from ..parseXML import ParseXML
+from ..util import global_variables as gv
+from ..validation import ValidationXMLFiles
 
 
 def generate_xml_for(filename):  # , overwrite=True):

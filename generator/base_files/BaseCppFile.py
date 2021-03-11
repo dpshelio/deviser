@@ -39,7 +39,7 @@
 
 
 from . import BaseFile
-from util import strFunctions, query, global_variables
+from ..util import strFunctions, query, global_variables
 
 
 class BaseCppFile(BaseFile.BaseFile):
