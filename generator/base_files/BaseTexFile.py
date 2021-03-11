@@ -39,7 +39,7 @@
 
 
 from . import BaseFile
-from util import strFunctions
+from ..util import strFunctions
 
 
 class BaseTexFile(BaseFile.BaseFile):

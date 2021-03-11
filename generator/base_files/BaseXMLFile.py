@@ -40,7 +40,7 @@
 
 from . import BaseFile
 from xml.dom.minidom import *
-from util import strFunctions, query
+from ..util import strFunctions, query
 
 
 class BaseXMLFile(BaseFile.BaseFile):

@@ -37,7 +37,7 @@
 # written permission.
 # ------------------------------------------------------------------------ -->
 
-from util import global_variables, strFunctions
+from ..util import global_variables, strFunctions
 
 
 class BaseFile:
